@@ -1,7 +1,21 @@
 package io.github.EfrainGarciaRosales;
+import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class TicTacToe {
+    private static char[][] board = {
+            {' ',' ',' '},
+            {' ',' ',' '},
+            {' ',' ',' '}
+    };
+    private static char currentPlayer = 'X';
 
+    public static void main(String[]args) {
+        Scanner scanner = new Scanner(System.in);
+        boolean gameWon = false;
+
+        System.out.println("TicTacToe!!!");
+        printBoard();
+
+        while
+    }
 }
